@@ -1,5 +1,6 @@
 
 #include <bits/stdc++.h>
+// or #include  <iostream>
 using namespace std;
 
 bool isPrime(int n, int i = 2)
