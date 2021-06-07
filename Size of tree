@@ -4,5 +4,5 @@ int size(struct node* node)
     return 0; 
   else     
     return(size(node->left) + 1 + size(node->right));
-//additional 1 is for adding root node.  
+//here, additional 1 is for adding root node.  
 } 
